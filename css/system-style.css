@@ -1,7 +1,12 @@
+@font-face {
+  font-family: Font1;
+  src: url(https://cdn.glitch.global/a1e90e1c-ed24-4ec7-b74b-c38f6752f73e/font-layer-1.ttf?v=1657557059150);
+}
+
 * {
 	transition-duration: 0.5s;
 	text-align: center;
-	font-family: "Inconsolata", monospace;
+	font-family: Font1, "Inconsolata", monospace;
 	font-weight: bold;
 	table-align: center;
 	margin: auto;
