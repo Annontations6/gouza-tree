@@ -20,6 +20,7 @@ addLayer("h", {
     gainExp() { // Calculate the exponent on main currency from bonuses
         return new Decimal(1)
     },
+    row:0,
     layerShown(){return true},
     upgrades:{
       11:{
